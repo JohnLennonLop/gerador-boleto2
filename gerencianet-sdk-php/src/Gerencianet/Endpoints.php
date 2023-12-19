@@ -9,6 +9,7 @@ class Endpoints
     private $requester;
     private $endpoints;
     private $methods;
+      private $options;
     private static $instance;
 
     public function __construct($options, $requester = null)

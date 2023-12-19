@@ -2,6 +2,7 @@
 ob_start();
 require('./sheep_core/config.php');
 
+
 require('vendor/autoload.php');
 
 use Gerencianet\Exception\GerencianetException;
